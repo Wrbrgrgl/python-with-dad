@@ -3,7 +3,7 @@
 
 #favorite stuff yall
 favorite_items = {'Claire':'Pokemon','Alex':'Magic Cards',
-                  'Blake':'Osama Bin Laden',}
+                  'Blake':'His spot on the couch',}
 my_string = "{} really loves {}!"
 
 for person in favorite_items:
