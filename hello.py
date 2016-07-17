@@ -2,5 +2,4 @@
 #thisismyfirstpythonpogromitsays hello worlb
 
 for number in xrange(0,100):
-    print "My number is "
-    print number
+    print "My number is " + str(number)
