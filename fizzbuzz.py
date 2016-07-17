@@ -8,11 +8,13 @@
 # if divisibly by neither say number
 
 for number in range(0,16):
-    if (number % 3 == 0) and (number % 5 == 0):
-        print "Fizzbuzz"
-    elif number % 3 == 0:
-        print "Fizz"
-    elif number % 5 == 0:
-        print "Buzz"
-    else:
-        print number
+#    if (number % 3 == 0) and (number % 5 == 0):
+#        print "Fizzbuzz"
+    result = ""
+    if number % 3 == 0:
+        result += "Fizz"
+    if number % 5 == 0:
+        result += "Buzz"
+    if len(result) == 0:
+        result = number
+    print result
