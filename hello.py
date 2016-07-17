@@ -1,3 +1,6 @@
 #!python
 #thisismyfirstpythonpogromitsays hello worlb
-print "Hello Worlb!"
+
+for number in xrange(0,100):
+    print "My number is "
+    print number
