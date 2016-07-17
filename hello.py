@@ -1,7 +1,10 @@
 #!python
 #thisismyfirstpythonpogromitsays hello worlb
 
-peoples = ['Claire','Alex','Blorz','Jon','Lemon']
+#favorite stuff yall
+favorite_items = {'Claire':'Pokemon','Alex':'Magic Cards',
+                  'Blake':'Osama Bin Laden',}
+my_string = "{} really loves {}!"
 
-for number in xrange(0,len(peoples)):
-    print "My person is {}".format(peoples[number])
+for person in favorite_items
+    print(my_string.format(person, favorite_items[person]))
